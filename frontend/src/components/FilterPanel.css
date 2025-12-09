@@ -1,0 +1,32 @@
+.filter-panel {
+  width: 280px;
+  background: white;
+  padding: 1.5rem;
+  border-right: 1px solid var(--border);
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+}
+
+.filter-group {
+  margin-bottom: 2rem;
+}
+
+.filter-group h3 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.filter-group select, .filter-group input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.range-inputs {
+  display: flex;
+  gap: 0.5rem;
+}
